@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F92D717D1F00D72B00EC7C84 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92D717C1F00D72B00EC7C84 /* SelectionViewController.swift */; };
 		F92D717F1F00D73600EC7C84 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92D717E1F00D73600EC7C84 /* NotificationViewController.swift */; };
+		F92D71871F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92D71861F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests.swift */; };
 		F94FE54B1F00B945009E8B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FE54A1F00B945009E8B71 /* AppDelegate.swift */; };
 		F94FE54D1F00B945009E8B71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FE54C1F00B945009E8B71 /* ViewController.swift */; };
 		F94FE5501F00B945009E8B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94FE54E1F00B945009E8B71 /* Main.storyboard */; };
@@ -17,9 +18,22 @@
 		F94FE55D1F00BBAD009E8B71 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FE55C1F00BBAD009E8B71 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F92D71891F00DB8100EC7C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F94FE53F1F00B945009E8B71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F94FE5461F00B945009E8B71;
+			remoteInfo = FeedbackGeneratorSample;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F92D717C1F00D72B00EC7C84 /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		F92D717E1F00D73600EC7C84 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		F92D71841F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedbackGeneratorSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92D71861F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackGeneratorSampleUITests.swift; sourceTree = "<group>"; };
+		F92D71881F00DB8100EC7C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94FE5471F00B945009E8B71 /* FeedbackGeneratorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedbackGeneratorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94FE54A1F00B945009E8B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F94FE54C1F00B945009E8B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +45,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F92D71811F00DB8100EC7C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F94FE5441F00B945009E8B71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F92D71851F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F92D71861F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests.swift */,
+				F92D71881F00DB8100EC7C84 /* Info.plist */,
+			);
+			path = FeedbackGeneratorSampleUITests;
+			sourceTree = "<group>";
+		};
 		F94FE53E1F00B945009E8B71 = {
 			isa = PBXGroup;
 			children = (
 				F94FE5491F00B945009E8B71 /* FeedbackGeneratorSample */,
+				F92D71851F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests */,
 				F94FE5481F00B945009E8B71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				F94FE5471F00B945009E8B71 /* FeedbackGeneratorSample.app */,
+				F92D71841F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +108,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F92D71831F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92D718B1F00DB8100EC7C84 /* Build configuration list for PBXNativeTarget "FeedbackGeneratorSampleUITests" */;
+			buildPhases = (
+				F92D71801F00DB8100EC7C84 /* Sources */,
+				F92D71811F00DB8100EC7C84 /* Frameworks */,
+				F92D71821F00DB8100EC7C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92D718A1F00DB8100EC7C84 /* PBXTargetDependency */,
+			);
+			name = FeedbackGeneratorSampleUITests;
+			productName = FeedbackGeneratorSampleUITests;
+			productReference = F92D71841F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F94FE5461F00B945009E8B71 /* FeedbackGeneratorSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F94FE5591F00B945009E8B71 /* Build configuration list for PBXNativeTarget "FeedbackGeneratorSample" */;
@@ -103,6 +153,12 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Jumpei Katayama";
 				TargetAttributes = {
+					F92D71831F00DB8100EC7C84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 462W8JBXLB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F94FE5461F00B945009E8B71;
+					};
 					F94FE5461F00B945009E8B71 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 462W8JBXLB;
@@ -124,11 +180,19 @@
 			projectRoot = "";
 			targets = (
 				F94FE5461F00B945009E8B71 /* FeedbackGeneratorSample */,
+				F92D71831F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F92D71821F00DB8100EC7C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F94FE5451F00B945009E8B71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +206,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F92D71801F00DB8100EC7C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92D71871F00DB8100EC7C84 /* FeedbackGeneratorSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F94FE5431F00B945009E8B71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,6 +227,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F92D718A1F00DB8100EC7C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F94FE5461F00B945009E8B71 /* FeedbackGeneratorSample */;
+			targetProxy = F92D71891F00DB8100EC7C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F94FE54E1F00B945009E8B71 /* Main.storyboard */ = {
@@ -176,6 +256,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F92D718C1F00DB8100EC7C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 462W8JBXLB;
+				INFOPLIST_FILE = FeedbackGeneratorSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jumpei-Katayama.FeedbackGeneratorSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FeedbackGeneratorSample;
+			};
+			name = Debug;
+		};
+		F92D718D1F00DB8100EC7C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 462W8JBXLB;
+				INFOPLIST_FILE = FeedbackGeneratorSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jumpei-Katayama.FeedbackGeneratorSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FeedbackGeneratorSample;
+			};
+			name = Release;
+		};
 		F94FE5571F00B945009E8B71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -298,6 +404,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F92D718B1F00DB8100EC7C84 /* Build configuration list for PBXNativeTarget "FeedbackGeneratorSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92D718C1F00DB8100EC7C84 /* Debug */,
+				F92D718D1F00DB8100EC7C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F94FE5421F00B945009E8B71 /* Build configuration list for PBXProject "FeedbackGeneratorSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

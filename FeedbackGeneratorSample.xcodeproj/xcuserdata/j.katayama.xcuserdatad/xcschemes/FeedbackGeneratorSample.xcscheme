@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F92D71831F00DB8100EC7C84"
+               BuildableName = "FeedbackGeneratorSampleUITests.xctest"
+               BlueprintName = "FeedbackGeneratorSampleUITests"
+               ReferencedContainer = "container:FeedbackGeneratorSample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
